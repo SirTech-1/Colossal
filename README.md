@@ -1,2 +1,2 @@
 # Colossal
-A Deep Learning, UCI-Compliant C++ Chess Engine
+A Deep Learning UCI Compliant C++ Chess Engine
