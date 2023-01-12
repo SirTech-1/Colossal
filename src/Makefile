@@ -844,7 +844,7 @@ install:
 clean: objclean profileclean
 	@rm -f .depend *~ core
 
-# NNUE training files, borrowed from the Stockfish engine.
+# NNUE training files, code borrowed from Stockfish.
 net:
 	$(eval nnuenet := $(shell grep EvalFileDefaultName evaluate.h | grep define | sed 's/.*\(nn-[a-z0-9]\{12\}.nnue\).*/\1/'))
 	@echo "Default net: $(nnuenet)"
